@@ -5,7 +5,6 @@
  * This program tests the mouse portion alone.
  */
 
-//Include this module whether using Arduino stack or TinyUSB stack
 #include <BLE52_Mouse_and_Keyboard.h>
 
 void Status (void) {  //prints out mouse button status

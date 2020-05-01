@@ -5,7 +5,6 @@
  * This program tests the keyboard portion alone.
  */
 
-//Include this module whether using Arduino stack or TinyUSB stack
 #include <BLE52_Mouse_and_Keyboard.h>
 
 uint8_t Multiple[3]= {'1','2','3'};
