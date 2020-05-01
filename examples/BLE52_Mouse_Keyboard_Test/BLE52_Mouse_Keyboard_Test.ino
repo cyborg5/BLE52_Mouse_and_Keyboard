@@ -12,7 +12,7 @@ void setup() {
   while ( !Serial ) delay(10);   // for nrf52840 with native usb
   Serial.println("Bluefruit52 HID Mouse Example");
   Serial.println("Go to your phone's Bluetooth settings to pair your device");
-  Serial.println("then open an application that accepts keyboard input");
+  Serial.println("then open an application that accepts mouse and keyboard input");
 
   /*
    * Unlike Arduino Mouse.h and Keyboard.h you MUST call a begin method to ensure
